@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="linear_color_bar_left_color">#ff80d2d0</color>
+    <color name="linear_color_bar_middle_color">#ff80d2d0</color>
+    <color name="linear_color_bar_right_color">#ff888888</color>
+    <color name="linear_color_bar_gray_color">#ff555555</color>
+    <color name="linear_color_bar_white_color">#ffffffff</color>
+    <color name="divider_color">#ff80d2d0</color>
+    <color name="title_color">#ff80d2d0</color>
+    <color name="setup_divider_color_dark">#ff80d2d0</color>
+    <color name="setup_divider_color_light">#ff80d2d0</color>
+</resources>

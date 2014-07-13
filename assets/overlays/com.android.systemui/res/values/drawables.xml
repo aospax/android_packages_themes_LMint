@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="notification_item_background_color_pressed">#fff1f1f1</item>
+	<item type="drawable" name="notification_template_icon_bg">#ff353535</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+</resources>
