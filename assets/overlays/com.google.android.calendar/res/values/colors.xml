@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ab_color">#ff80d2d0</color>
+    <color name="blue">#ff80d2d0</color>
+    <color name="calendar_view_switch_menu_text_color">#ff406968</color>
+    <color name="today_highlight_color">#0080d2d0</color>
+    <color name="calendar_grid_area_selected">#e680d2d0</color>
+    <color name="day_event_clicked_background_color">#8080d2d0</color>
+    <color name="day_clicked_background_color">#ff80d2d0</color>
+    <color name="appwidget_row_in_progress">#6680d2d0</color>
+</resources>
