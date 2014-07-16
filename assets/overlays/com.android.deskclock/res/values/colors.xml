@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ab_color">#ff80d2d0</color>
+    <color name="red">#ff80d2d0</color>
+    <color name="main_button_red_normal">#80d2d0</color> <!-- same as clock_red -->
+    <color name="main_button_red_selected">#c080d2d0</color>
+    <color name="clock_red">#80d2d0</color>
+</resources>
