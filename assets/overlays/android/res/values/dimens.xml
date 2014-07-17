@@ -6,5 +6,6 @@
     <dimen name="preference_child_padding_side">12.0dip</dimen>
     <dimen name="preference_screen_header_padding_side">0.0dip</dimen>
     <dimen name="action_bar_default_height">56dip</dimen>
+    <dimen name="action_bar_stacked_max_height">56.0dp</dimen>
     <dimen name="action_bar_title_text_size">20sp</dimen>
 </resources>
