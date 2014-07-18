@@ -15,6 +15,16 @@
             <file>Roboto-BoldItalic.ttf</file>
         </fileset>
     </family>
+
+    <family>
+        <nameset>
+            <name>sans-serif-medium</name>
+        </nameset>
+        <fileset>
+            <file>Roboto-Medium.ttf</file>
+            <file>Roboto-MediumItalic.ttf</file>
+        </fileset>
+    </family>
     
     <family>
         <nameset>
