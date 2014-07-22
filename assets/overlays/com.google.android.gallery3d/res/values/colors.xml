@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ab_color">#ff33383b</color>
+    <color name="albumset_background">#ff191919</color>
+    <color name="album_background">#ff191919</color>
+    <color name="photo_background">#ff191919</color>
+    <color name="cache_background">#ff191919</color>
+    <color name="slideshow_background">#ff191919</color>
+    <color name="ingest_highlight_semitransparent">#8880d2d0</color>
+    <color name="ingest_date_tile_text">#ff80d2d0</color>
+    <color name="review_control_pressed_color">#ff80d2d0</color>
+    <color name="review_control_pressed_fan_color">#3f80d2d0</color>
+    <color name="popup_title_color">#ff80d2d0</color>
+    <color name="mode_selection_border">#ff80d2d0</color>
+    <color name="holo_blue_light">#ff80d2d0</color>
+</resources>
