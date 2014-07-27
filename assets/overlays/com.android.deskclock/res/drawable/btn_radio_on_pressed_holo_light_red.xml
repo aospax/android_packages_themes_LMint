@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_000" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_001" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_002" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_003" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_004" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_005" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_006" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_007" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_008" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_009" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_010" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_011" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_012" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_013" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_014" />
+    <item android:duration="35" android:drawable="@drawable/btn_holo_light_off_015" />	
+</animation-list>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_1" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_2" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_3" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_4" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_5" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_6" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_7" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_8" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_9" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_10" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_11" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_12" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_13" />
+    <item android:duration="20" android:drawable="@drawable/holo_light_on_14" />
+	<item android:duration="20" android:drawable="@drawable/holo_light_on_15" />
+</animation-list>
