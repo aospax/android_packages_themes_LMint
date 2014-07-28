@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Recents Panel Mods-->
+    <dimen name="status_bar_recents_app_icon_max_width">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_max_height">0.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_width">240.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">200.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_bg_padding">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_text_size">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_description_text_size">0.0dip</dimen>
+    <dimen name="status_bar_recents_text_fading_edge_length">0.0dip</dimen>
+    <dimen name="status_bar_recents_scroll_fading_edge_length">10.0dip</dimen>
+    <dimen name="status_bar_recents_right_glow_margin">100.0dip</dimen>
+    <dimen name="status_bar_recents_thumbnail_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_text_description_padding">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_width">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_label_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_item_padding">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_translate_distance">35.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_left_margin">0.0dip</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8.0dip</dimen>
+
+</resources>
