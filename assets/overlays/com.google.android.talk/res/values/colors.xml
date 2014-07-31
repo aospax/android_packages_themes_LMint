@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="wallet_highlighted_text_holo_light">#66009688</color>
+    <color name="wallet_highlighted_text_holo_dark">#66009688</color>
+    <color name="wallet_holo_blue_light">#ff009688</color>
+    <color name="realtimechat_message_textlink">#cc009688</color>
+    <color name="hangout_pinned_participant_color">#ff009688</color>
+    <color name="recommended_item_overlay_color">#7f009688</color>
+    <color name="butter_bar_enable_circles_background_color">#ff009688</color>
+    <color name="emoji_gallery_pressed_fill">#9a009688</color>
+    <color name="text_secondary_default_color_dark">#9a000000</color>
+    <color name="text_secondary_default_color_dark_extra">#deffffff</color>
+
+</resources>
