@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="mail_app_blue">#ffdb4436</item>
+    <color name="blue">#ffdb4436</color>
+    <color name="blue_focused">#ffea5487</color>
+    <color name="darker_blue">#ffb33227</color>
+    <color name="conv_header_text_link_blue">#ffdb4436</color>
+</resources>
