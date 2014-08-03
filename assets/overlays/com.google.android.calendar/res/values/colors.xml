@@ -2,12 +2,12 @@
 <resources>
     <color name="ab_color">#ff33383b</color>
     <color name="background_color">#fffafafa</color>
-    <color name="blue">#ff80d2d0</color>
+    <color name="blue">#ff71b5b3</color>
     <color name="calendar_header">#ffffffff</color>
     <color name="calendar_view_switch_menu_text_color">#ffffffff</color>
-    <color name="today_highlight_color">#0080d2d0</color>
-    <color name="calendar_grid_area_selected">#e680d2d0</color>
-    <color name="day_event_clicked_background_color">#8080d2d0</color>
+    <color name="today_highlight_color">#0071b5b3</color>
+    <color name="calendar_grid_area_selected">#e671b5b3</color>
+    <color name="day_event_clicked_background_color">#8071b5b3</color>
     <color name="day_clicked_background_color">#ff80d2d0</color>
-    <color name="appwidget_row_in_progress">#6680d2d0</color>
+    <color name="appwidget_row_in_progress">#6671b5b3</color>
 </resources>
