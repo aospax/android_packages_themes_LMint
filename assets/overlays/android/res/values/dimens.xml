@@ -3,4 +3,5 @@
     <dimen name="action_bar_default_height">56dip</dimen>
     <dimen name="action_bar_stacked_max_height">56.0dp</dimen>
     <dimen name="action_bar_title_text_size">20sp</dimen>
+    <dimen name="action_bar_icon_vertical_padding">28.0dp</dimen>
 </resources>
