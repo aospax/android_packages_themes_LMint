@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="apply_button_default_color">#ff80d2d0</color>
-    <color name="apply_button_pressed_color">#ff71b5b3</color>
-	<color name="default_circle_indicator_fill_color">#ff80d2d0</color>
+    <color name="apply_button_default_color">#ff71b5b3</color>
+    <color name="apply_button_pressed_color">#ff80d2d0</color>
+    <color name="apply_button_progress_color">#ff94dcd9</color>
+    <color name="default_circle_indicator_fill_color">#ff80d2d0</color>
 </resources>
