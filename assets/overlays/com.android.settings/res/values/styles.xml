@@ -31,5 +31,6 @@
 
     <style name="TextAppearance.Holo.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#deffffff</item>
     </style>
 </resources>

@@ -19,13 +19,13 @@
         parent="style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textSize">@dimen/action_bar_title_text_size</item>
         <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:textColor">#ff757575</item>
+        <item name="android:textColor">#de000000</item>
     </style>
     <style name="TextAppearance.Holo.Widget.ActionBar.Title.Inverse"
         parent="@*android:style/TextAppearance.Holo.Medium.Inverse">
         <item name="android:textSize">@dimen/action_bar_title_text_size</item>
         <item name="android:paddingLeft">16.0dip</item>
-        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textColor">#deffffff</item>
     </style>
     <style name="Widget.Holo.ActionBar" parent="@*android:style/Widget.ActionBar">
         <item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title</item>
@@ -118,9 +118,11 @@
 
     <style name="TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
         <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#de000000</item>
     </style>
     <style name="TextAppearance.Holo.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
         <item name="android:textSize">22.0sp</item>
+        <item name="android:textColor">#deffffff</item>
     </style>
     <style name="Theme.Black" parent="@android:style/Theme">
         <item name="android:colorBackground">@color/transparent</item>
