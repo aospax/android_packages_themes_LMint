@@ -1,32 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!-- Text styles -->
+
+    <style name="TextAppearance.Holo.Widget.ActionBar.Title"
+        parent="@*android:style/TextAppearance.Holo.Medium">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Light.Widget.ActionBar.Title"
+        parent="style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:textColor">#de000000</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
+    </style>
+
+    <style name="TextAppearance.Holo.Widget.ActionBar.Title.Inverse"
+        parent="@*android:style/TextAppearance.Holo.Medium.Inverse">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:paddingLeft">16.0dip</item>
+        <item name="android:textColor">#deffffff</item>
+        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
+    </style>
+
     <style name="TextAppearance.Holo.Widget.Switch"
         parent="@android:style/TextAppearance.Holo.Small">
         <item name="android:textColor">#00000000</item>
         <item name="android:textSize">0.0dip</item>
     </style>
+
     <style name="TextAppearance.Holo.Light.Widget.Switch"
         parent="@android:style/TextAppearance.Holo.Small">
         <item name="android:textColor">#00000000</item>
         <item name="android:textSize">0.0dip</item>
     </style>
-    <style name="TextAppearance.Holo.Widget.ActionBar.Title"
-        parent="@*android:style/TextAppearance.Holo.Medium">
-        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
-        <item name="android:paddingLeft">16.0dip</item>
-    </style>
-    <style name="TextAppearance.Holo.Light.Widget.ActionBar.Title"
-        parent="style/TextAppearance.Holo.Widget.ActionBar.Title">
-        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
-        <item name="android:paddingLeft">16.0dip</item>
+
+    <style name="TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">22.0sp</item>
         <item name="android:textColor">#de000000</item>
     </style>
-    <style name="TextAppearance.Holo.Widget.ActionBar.Title.Inverse"
-        parent="@*android:style/TextAppearance.Holo.Medium.Inverse">
-        <item name="android:textSize">@dimen/action_bar_title_text_size</item>
-        <item name="android:paddingLeft">16.0dip</item>
+
+    <style name="TextAppearance.Holo.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
+        <item name="android:textSize">22.0sp</item>
         <item name="android:textColor">#deffffff</item>
     </style>
+
+    <!-- Widget Styles -->
+
     <style name="Widget.Holo.ActionBar" parent="@*android:style/Widget.ActionBar">
         <item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title</item>
         <item name="android:subtitleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle</item>
@@ -40,6 +63,7 @@
         <item name="android:itemPadding">8dip</item>
         <item name="android:icon">@*android:color/transparent</item>
     </style>
+
     <style name="Widget.Holo.ActionBar.Solid">
         <item name="android:titleTextStyle">@style/TextAppearance.Holo.Widget.ActionBar.Title</item>
         <item name="android:subtitleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle</item>
@@ -53,6 +77,7 @@
         <item name="android:itemPadding">8dip</item>
         <item name="android:icon">@*android:color/transparent</item>
     </style>
+
     <style name="Widget.Holo.Light.ActionBar" parent="@*android:style/Widget.Holo.ActionBar">
         <item name="android:titleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Title</item>
         <item name="android:subtitleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle</item>
@@ -64,6 +89,7 @@
         <item name="android:indeterminateProgressStyle">@*android:style/Widget.Holo.Light.ProgressBar</item>
         <item name="android:icon">@*android:color/transparent</item>
     </style>
+
     <style name="Widget.Holo.Light.ActionBar.Solid">
         <item name="android:titleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Title</item>
         <item name="android:subtitleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle</item>
@@ -77,6 +103,7 @@
         <item name="android:itemPadding">8dip</item>
         <item name="android:icon">@*android:color/transparent</item>
     </style>
+
     <style name="Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:titleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Title.Inverse</item>
         <item name="android:subtitleTextStyle">@*android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle.Inverse</item>
@@ -90,7 +117,9 @@
         <item name="android:itemPadding">8dip</item>
         <item name="android:icon">@*android:color/transparent</item>
     </style>
-	<!--Switch-->
+
+    <!-- Switch -->
+
     <style name="Widget.Holo.CompoundButton.Switch"
         parent="@*android:style/Widget.Holo.CompoundButton">
         <item name="android:track">@drawable/switch_track_holo_dark</item>
@@ -102,6 +131,7 @@
         <item name="android:switchMinWidth">12dip</item>
         <item name="android:switchPadding">0dip</item>
     </style>
+
     <style name="Widget.Holo.Light.CompoundButton.Switch"
         parent="@*android:style/Widget.Holo.CompoundButton.Switch">
         <item name="android:track">@drawable/switch_track_holo_light</item>
@@ -114,16 +144,9 @@
         <item name="android:switchMinWidth">12dip</item>
         <item name="android:switchPadding">0dip</item>
     </style>
+
     <!--End Of Switch-->
 
-    <style name="TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
-        <item name="android:textSize">22.0sp</item>
-        <item name="android:textColor">#de000000</item>
-    </style>
-    <style name="TextAppearance.Holo.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
-        <item name="android:textSize">22.0sp</item>
-        <item name="android:textColor">#deffffff</item>
-    </style>
     <style name="Theme.Black" parent="@android:style/Theme">
         <item name="android:colorBackground">@color/transparent</item>
         <item name="android:windowBackground">@drawable/background_holo_dark</item>
