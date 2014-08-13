@@ -38,13 +38,20 @@
         <item name="android:textSize">0.0dip</item>
     </style>
 
+    <style name="TextAppearance.DialogWindowTitle" parent="@*android:style/TextAppearance">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">21.0sp</item>
+    </style>
+
     <style name="TextAppearance.Holo.Light.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
-        <item name="android:textSize">22.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">21.0sp</item>
         <item name="android:textColor">#de000000</item>
     </style>
 
     <style name="TextAppearance.Holo.DialogWindowTitle" parent="@*android:style/TextAppearance.Holo">
-        <item name="android:textSize">22.0sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">21.0sp</item>
         <item name="android:textColor">#deffffff</item>
     </style>
 

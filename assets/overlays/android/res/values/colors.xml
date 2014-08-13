@@ -19,6 +19,7 @@
     <color name="holo_blue_bright">#ff54d2ce</color>
     <color name="holo_blue_dark">#ff80d2d0</color>
     <color name="holo_blue_light">#ff71b5b3</color>
+    <color name="dialog_title_divider">@null</color>
     <color name="highlighted_text_holo_dark">#6680d2d0</color>
     <color name="highlighted_text_holo_light">#6680d2d0</color>
     <color name="perms_dangerous_grp_color">#80d2d0</color>
