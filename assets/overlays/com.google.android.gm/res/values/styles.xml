@@ -14,6 +14,7 @@
     </style>
     <style name="ComposeTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
+        <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
     </style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.Light.ListView</item>
@@ -28,6 +29,11 @@
         <item name="android:textColor">#ddffffff</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginTop">-3.0sp</item>
+    </style>
+
+    <style name="PlainSpinnerDropdown" parent="@*android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@*android:drawable/spinner_background_holo_light</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>
     </style>
 
 </resources>
