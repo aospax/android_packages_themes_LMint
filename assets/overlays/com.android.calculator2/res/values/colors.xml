@@ -2,18 +2,18 @@
 <resources>
     <color name="magic_flame">#00ffffff</color>
     <color name="button_text">#ffd1d1d1</color>
-    <color name="button_hint_text">#ff33b5e5</color>
+    <color name="button_hint_text">#ff80d2d0</color>
     <color name="button_disabled_text_color">#ff3a3a3a</color>
-    <color name="button_text_light">#ff33b5e5</color>
+    <color name="button_text_light">#ff80d2d0</color>
     <color name="button_disabled_text_color_light">#883a3a3a</color>
     <color name="button_pressed_text_light">#ffd1d1d1</color>
     <color name="history_input">#ffe6e6e6</color>
     <color name="history_input_light">#ff0b0b0b</color>
     <color name="history_result">#ff999999</color>
-    <color name="history_result_light">#ff33b5e5</color>
+    <color name="history_result_light">#ff80d2d0</color>
     <color name="background">@color/kk_black_dark</color>
     <color name="background_light">@color/kk_black_dark</color>
-    <color name="graph_color">#ff33b5e5</color>
+    <color name="graph_color">#ff71b5b3</color>
     
     <color name="kk_black_light">#ff222222</color>
     <color name="kk_black_light_trans">#B9222222</color>
@@ -40,11 +40,11 @@
     <color name="black_trans">#B9000000</color>    
     <color name="black_verytrans">#4f000000</color>    
     <color name="background_dark">@color/kk_black_dark</color>
-    <color name="holo_blue_light_trans">#8833b5e5</color>
-    <color name="holo_blue_light_semitrans">#cc33b5e5</color>
-    <color name="holo_blue_light_verytrans">#2033b5e5</color>
-    <color name="holo_blue_light">#ff33b5e5</color>
-    <color name="holo_blue_dark">#ff0099cc</color>
+    <color name="holo_blue_light_trans">#8880d2d0</color>
+    <color name="holo_blue_light_semitrans">#cc80d2d0</color>
+    <color name="holo_blue_light_verytrans">#2080d2d0</color>
+    <color name="holo_blue_light">#ff71b5b3</color>
+    <color name="holo_blue_dark">#ff80d2d0</color>
     <color name="holo_green_light">#ff99cc00</color>
     <color name="holo_green_dark">#ff669900</color>
     <color name="holo_red_light">#ffff4444</color>
@@ -52,6 +52,6 @@
     <color name="holo_orange_light">#ffffbb33</color>
     <color name="holo_orange_dark">#ffff8800</color>
     <color name="holo_purple">#ffaa66cc</color>
-    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="holo_blue_bright">#ff54d2ce</color>
 
 </resources>
