@@ -22,7 +22,6 @@
         </nameset>
         <fileset>
             <file>Roboto-Medium.ttf</file>
-            <file>Roboto-MediumItalic.ttf</file>
         </fileset>
     </family>
     
