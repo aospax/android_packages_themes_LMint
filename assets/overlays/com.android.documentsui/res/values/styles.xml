@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionOverflowButtonStyle">@style/DarkerOverflow</item>
+		<item name="android:actionBarStyle">@style/DocUIActionBarStyle</item>
+    </style>
+    <style name="DocUIActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/docui_ab_solid</item>
+        <item name="android:titleTextStyle">@style/DocUIActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/DocUIActionBar.Subtitle</item>
+    </style>
+    <style name="DocUIActionBar.Title" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:background">#00000000</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">#deffffff</item>
+    </style>
+    <style name="DocUIActionBar.Subtitle" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">#deffffff</item>
+        <item name="android:layout_marginTop">-3.0sp</item>
+    </style>
+    <style name="DarkerOverflow" parent="@*android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow</item>
+    </style>
+</resources>
