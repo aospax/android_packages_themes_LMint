@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tab_underline_height">2.0dip</dimen>
+    <dimen name="tab_selection_height">7.6999817dip</dimen>
+</resources>

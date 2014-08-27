@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Secondary color of dialpad text (used for the letters corresponding to each digit -->
+    <color name="dialpad_secondary_text_color">#ff8b8b8b</color>
+
+    <!-- Call button color separated from dialpad_primary_text_color, for better theme support -->
+    <color name="dialpad_call_button_color">#ff3b77e7</color>
+
+    <color name="actionbar_text_color">#ffffffff</color>
+    <color name="dialpad_digits_text_color">#ff000000</color>
+	
+    <color name="all_contacts_button_color">#ff999999</color>
+    <color name="all_contacts_button_pressed_color">#ff808080</color>
+    <color name="all_contacts_button_text_color">#ffffffff</color>
+	
+    <color name="background_dialpad">#ffffffff</color>
+    <color name="background_dialpad_pressed">#00000000</color>
+
+    <color name="speed_dial_text_color">#ff555555</color>
+    <color name="favorite_contacts_separator_color">#ffd0d0d0</color>
+    <color name="searchbox_background_color">#fff5f5f5</color>
+    <color name="searchbox_text_color">#de000000</color>
+    <color name="searchbox_hint_text_color">#80d2d0</color>
+    <color name="dialtact_primary_text">#ff555555</color>
+    <color name="dialtact_secondary_text">#ffa4a4a4</color>
+    <color name="background_dark">#fff5f5f5</color>
+
+    <color name="dialpad_primary_text_color">#ff80d2d0</color>
+    <color name="call_log_voicemail_highlight_color">#ff95edea</color>
+    <color name="voicemail_playback_seek_bar_already_played">#ff95edea</color>
+    <color name="item_selected">#6695edea</color>
+    <color name="actionbar_background_color">#ff80d2d0</color>
+    <color name="actionbar_underline">#ff80d2d0</color>
+    <color name="tab_background_gradient_start_color">#fff5f5f5</color>
+    <color name="tab_background_gradient_end_color">#fff5f5f5</color>
+    <color name="tab_background_gradient_start_pressed_color">#ffdedede</color>
+    <color name="tab_background_gradient_end_pressed_color">#ffdedede</color>
+    <color name="tab_underline_selected_color">#ff80d2d0</color>
+    <color name="tab_selected_color">#ff80d2d0</color>
+    <color name="tab_underline_color">#ffc8c8c8</color>
+    <color name="tab_text_color">#ff505050</color>
+    <color name="background_dialer_light">#fff5f5f5</color>
+    <color name="background_dialer_list_items">#fff5f5f5</color>
+    <color name="favorites_menu_background_color">#fff5f5f5</color>
+
+    <color name="incall_call_banner_background">#ff80d2d0</color>
+    <color name="button_background">#ff80d2d0</color>
+    <color name="incall_secondary_info_background">#bf49aeaa</color>
+    <color name="incall_call_glowpad_background">#00000000</color>   
+
+</resources>
