@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Base.AppCompat.Light" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarWidgetTheme">?actionBarWidgetTheme</item>
+        <item name="windowActionBar">?android:windowActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="listPreferredItemHeight">?android:listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listPreferredItemHeightLarge">?android:listPreferredItemHeightLarge</item>
+        <item name="listPreferredItemPaddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="listPreferredItemPaddingRight">?android:listPreferredItemPaddingRight</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+    </style>
+    <style name="OverflowButtonStyle" parent="@*android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow</item>
+    </style>
+</resources>

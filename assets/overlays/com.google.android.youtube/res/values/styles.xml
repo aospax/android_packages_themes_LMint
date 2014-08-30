@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="Widget.YouTube.ActionBar" parent="@*android:style/Widget.Holo.Light.ActionBar.Solid" />
+    <style name="Widget.YouTube.ActionBar" parent="@*android:style/Widget.Holo.ActionBar.Solid" />
 
     <style name="ActionBar" parent="@style/Widget.YouTube.ActionBar">
         <item name="android:background">@drawable/action_bar_background</item>
