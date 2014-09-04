@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppBaseTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MailActionBarStyle</item>
+    </style>
+    <style name="MailActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar.Solid">
+        <item name="android:background">@drawable/mail_ab_solid</item>
+        <item name="android:titleTextStyle">@style/MailActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/MailActionBar.Subtitle</item>
+    </style>
+    <style name="PlainUnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MailActionBarStyle</item>
+        <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
+    </style>
+    <style name="ComposeTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MailActionBarStyle</item>
+        <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
+	</style>
+    <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.Light.ListView</item>
+        <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+    </style>
+    <style name="MailActionBar.Title" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:background">#00000000</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="MailActionBar.Subtitle" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:layout_marginTop">-3.0sp</item>
+    </style>
+
+    <style name="PlainSpinnerDropdown" parent="@*android:style/Widget.Holo.Light.Spinner">
+        <item name="android:background">@*android:drawable/spinner_background_holo_light</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>
+    </style>
+
+</resources>

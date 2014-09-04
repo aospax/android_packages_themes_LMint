@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="color" name="mail_app_blue">#fff5b024</item>
+    <color name="swipe_to_refresh_text_color">#ffffffff</color>
+    <color name="conv_header_text_link_blue">#fff5b024</color>
+</resources>
