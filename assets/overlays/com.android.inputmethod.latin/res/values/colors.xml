@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="key_hint_letter_color_gb">#ff7fcac3</color>
+    <color name="key_hint_letter_color_holo">#ff808184</color>
+	<color name="highlight_color_gb">#fffcae00</color>
+    <color name="typed_word_color_gb">#7fcac3</color>
+    <color name="highlight_translucent_color_gb">#99fcae00</color>
+    <color name="key_text_color_gb">@android:color/white</color>
+    <color name="key_text_shadow_color_gb">#bb000000</color>
+    <color name="key_text_inactivated_color_gb">#66e0e4e5</color>
+    <color name="key_hint_label_color_gb">#e0e0e4e5</color>
+    <color name="key_shifted_letter_hint_inactivated_color_gb">#66e0e4e5</color>
+    <color name="key_shifted_letter_hint_activated_color_gb">#cce0e4e5</color>
+    <color name="spacebar_text_color_gb">#ffc0c0c0</color>
+    <color name="spacebar_text_shadow_color_gb">#80000000</color>
+    <color name="gesture_floating_preview_color_gb">#c0263238</color>
+    <color name="highlight_color_ics">#ff33b5e5</color>
+    <color name="typed_word_color_ics">#d833b5e5</color>
+    <color name="suggested_word_color_ics">#b233b5e5</color>
+    <color name="highlight_translucent_color_ics">#9933b5e5</color>
+    <color name="key_text_shadow_color_holo">@android:color/transparent</color>
+    <color name="key_text_inactivated_color_holo">#66e0e4e5</color>
+    <color name="key_hint_label_color_holo">#a0ffffff</color>
+    <color name="key_shifted_letter_hint_inactivated_color_holo">#66e0e4e5</color>
+    <color name="key_shifted_letter_hint_activated_color_holo">@android:color/white</color>
+    <color name="spacebar_text_color_holo">#807fcac3</color>
+    <color name="spacebar_text_shadow_color_holo">#807fcac3</color>
+    <color name="gesture_floating_preview_color_holo">#c0000000</color>
+    <color name="highlight_color_klp">#ff7fcac3</color>
+    <color name="typed_word_color_klp">#7fcac3</color>
+    <color name="suggested_word_color_klp">#7fcac3</color>
+    <color name="highlight_translucent_color_klp">#99e0e0e0</color>
+    <color name="setup_background">#ffebebeb</color>
+    <color name="setup_text_dark">#ff707070</color>
+    <color name="setup_text_action">@android:color/holo_blue_light</color>
+    <color name="setup_step_background">@android:color/background_light</color>
+    <color name="setup_welcome_video_margin_color">#ffcccccc</color>
+    <color name="emoji_category_page_id_view_background">#ff000000</color>
+    <color name="emoji_category_page_id_view_foreground">#80ffffff</color>
+    <color name="emoji_key_background_color">#00000000</color>
+    <color name="emoji_key_pressed_background_color">#30ffffff</color>
+    <color name="key_text_color_normal_holo">@android:color/white</color>
+    <color name="key_text_color_functional_holo">@android:color/white</color>
+</resources>
