@@ -7,7 +7,7 @@
     </style>
     <style name="MmsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
 		<item name="android:background">@drawable/mms_ab_solid</item>
-        <item name="android:backgroundSplit">@color/background_light</item>
+        <item name="android:backgroundSplit">@color/background</item>
         <item name="android:titleTextStyle">@style/MmsActionBarText</item>
     </style>
 
