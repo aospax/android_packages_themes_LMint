@@ -17,6 +17,7 @@
     <color name="background_dialpad">#ffffffff</color>
     <color name="background_dialpad_pressed">#00000000</color>
 
+    <color name="people_app_theme_color">#ff80d2d0</color>
     <color name="speed_dial_text_color">#ff555555</color>
     <color name="favorite_contacts_separator_color">#ffd0d0d0</color>
     <color name="searchbox_background_color">#fff5f5f5</color>
