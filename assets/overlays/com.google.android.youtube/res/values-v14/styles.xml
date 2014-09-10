@@ -19,7 +19,7 @@
         <item name="listPreferredItemPaddingRight">?android:listPreferredItemPaddingRight</item>
         <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
-        <item name="android:textColorHint">#deffffff</item>
+        <item name="android:textColorHint">#e6ffffff</item>
     </style>
     <style name="OverflowButtonStyle" parent="@*android:style/Widget.Holo.Light.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_menu_moreoverflow</item>

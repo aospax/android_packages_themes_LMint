@@ -25,6 +25,10 @@
     <color name="perms_dangerous_grp_color">#80d2d0</color>
     <color name="perms_dangerous_perm_color">#80d2d0</color>
     <color name="transparent">#00000000</color>
+    <color name="hint_foreground_dark">#e6ffffff</color>
+    <color name="hint_foreground_holo_dark">#e6ffffff</color>
+    <color name="hint_foreground_light">#b3000000</color>
+    <color name="hint_foreground_holo_light">#b3000000</color>
     <drawable name="notification_template_icon_bg">#ff262626</drawable>
     <drawable name="selected_day_background">#ff80d2d0</drawable>
 </resources>
