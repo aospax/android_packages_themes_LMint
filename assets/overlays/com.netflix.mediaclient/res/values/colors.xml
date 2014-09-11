@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="netflix_ab_solid">#ffe50914</color>
+    <color name="default_line_indicator_selected_color">#ffe50914</color>
+    <color name="default_title_indicator_footer_color">#ffe50914</color>
+    <color name="default_underline_indicator_selected_color">#ffe50914</color>
+    <color name="chromecast_blue">#ffe50914</color>
+    <color name="pin_link_text_light">#ffe50914</color>
+</resources>
