@@ -17,17 +17,16 @@
 <resources>
     <!-- Background color of action bars.  Ensure this stays in sync with Dialer
          actionbar_background_color. -->
-    <color name="actionbar_background_color">#ff80d2d0</color>
+    <color name="actionbar_background_color">#ff71b5b3</color>
     <!-- Underline color of action bars.  Ensure this stays in sync with Dialer
          actionbar_underline. -->
-    <color name="actionbar_underline">#ff80d2d0</color>
+    <color name="actionbar_underline">#ff71b5b3</color>
 
-    <color name="incall_call_banner_background">#ff80d2d0</color>
-    <color name="incall_secondary_info_background">#bf49aeaa</color>
+    <color name="incall_call_banner_background">#ff71b5b3</color>
+    <color name="incall_secondary_info_background">#bf239692</color>
     <color name="incall_call_glowpad_background">#00000000</color>
-    <color name="people_app_theme_color">#ff80d2d0</color>
 
-    <color name="phone_settings_actionbar_color">#ff80d2d0</color>
+    <color name="phone_settings_actionbar_color">#ff71b5b3</color>
 
     <color name="phone_settings_background_color">#fff5f5f5</color>
 </resources>

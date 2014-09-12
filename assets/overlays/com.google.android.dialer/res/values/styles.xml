@@ -20,12 +20,18 @@
         <item name="android:windowActionBarOverlay">false</item>
         <item name="android:editTextStyle">@style/DialtactsSearchboxStyle</item>
 	</style>
+    <style name="CallDetailActivityTheme1" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:gravity">top</item>
+        <item name="android:actionBarStyle">@style/DialtactsLogActionBarStyle</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
 	<style name="DialtactsActionBarTabBarStyle" parent="@*android:style/Widget.Holo.ActionBar.TabBar">
         <item name="android:background">@drawable/action_bar_tab</item>
         <item name="android:divider">@null</item>
         <item name="android:showDividers">none</item>
     </style>
-     <style name="DialtactsActionBarTabTextStyle" parent="@*android:style/Widget.Holo.Light.ActionBar.TabText">
+    <style name="DialtactsActionBarTabTextStyle" parent="@*android:style/Widget.Holo.Light.ActionBar.TabText">
         <item name="android:textColor">@color/tab_text_color</item>
     </style>
     
@@ -35,7 +41,13 @@
         <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
         <item name="android:backgroundStacked">#ffffffff</item>
     </style>
-    <style name="DialtactsActionBarTitleText" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+    <style name="DialtactsLogActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:background">@drawable/call_history_actionbar_background</item>
+        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/DialtactsActionBarTitleText</item>
+    </style>
+    <style name="DialtactsActionBarTitleText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/actionbar_text_color</item>
     </style>
 

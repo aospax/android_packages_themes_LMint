@@ -2,13 +2,13 @@
 <resources>
 
     <!-- Color of the background of the action bar -->
-    <color name="action_bar_background">#ff80d2d0</color>
+    <color name="action_bar_background">#ff71b5b3</color>
 
     <!-- Color of the background of the action bar when highlighted (ie. pressed, focused) -->
     <color name="action_bar_background_highlight">#ffdedede</color>
 	
     <!-- Color used for the letter in the A-Z section header -->
-    <color name="section_header_text_color">#ff80d2d0</color>
+    <color name="section_header_text_color">#de000000</color>
 	<!-- Primary background for Contacts List Layout -->
 	<color name="background_primary">#ffffffff</color>
 

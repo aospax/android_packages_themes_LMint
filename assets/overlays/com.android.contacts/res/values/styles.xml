@@ -8,7 +8,9 @@
         <item name="android:actionBarTabStyle">@style/ContactsActionBarTabView</item>
 		<item name="android:actionBarWidgetTheme">@style/ActionBarWidget</item>
     </style>
-
+    <style name="ContactsPreferencesTheme" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ContactsActionBarPreferenceStyle</item>
+    </style>
     <style name="ContactsActionBarStyle" parent="@android:Widget.Holo.ActionBar">
         <item name="android:background">@drawable/ab_solid_custom_blue_inverse_holo</item>
         <item name="android:backgroundSplit">@drawable/ab_split_solid_inverse_holo</item>
@@ -16,19 +18,21 @@
         <item name="android:titleTextStyle">@style/TextAppearance.Contacts.ActionBar.Title</item>
         <item name="android:displayOptions"></item>
     </style>
-
+    <style name="ContactsActionBarPreferenceStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:background">@drawable/ab_solid_custom_blue_inverse_holo</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Contacts.ActionBar.Title</item>
+    </style>
     <style name="ContactsActionBarTabView" parent="@*android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:background">@color/action_bar_background</item>
     </style>
-
-   <style name="ActionBarWidget" parent="@*android:style/Theme.Holo.Light">  
+    <style name="ActionBarWidget" parent="@*android:style/Theme.Holo.Light">
    	    <item name="android:textColorPrimary">#de000000</item>
         <item name="android:textColorSecondary">#ffffffff</item>
         <item name="android:textColorTertiary">#ffffffff</item>
 		<item name="android:titleTextStyle">@style/TextAppearance.Contacts.ActionBar.Title</item>
 		<item name="android:textColorHint">#ffffffff</item>
-   </style>
-
+    </style>
     <style name="TextAppearance.Contacts.ActionBar.Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textSize">20.0dp</item>
         <item name="android:textColor">#ffffffff</item>
