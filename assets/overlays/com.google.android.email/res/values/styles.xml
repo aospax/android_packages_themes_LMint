@@ -15,15 +15,20 @@
     <style name="ComposeTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/MailActionBarStyle</item>
         <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
+        <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+        <item name="android:editTextStyle">@style/Widget.Holo.EditText</item>
 	</style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.Light.ListView</item>
         <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+        <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
+        <item name="android:editTextStyle">@style/Widget.Holo.EditText</item>
     </style>
     <style name="MailActionBar.Title" parent="@*android:style/TextAppearance.Medium">
         <item name="android:background">#00000000</item>
         <item name="android:textColor">#ffffffff</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
     <style name="MailActionBar.Subtitle" parent="@*android:style/TextAppearance.Medium">
         <item name="android:textColor">#ddffffff</item>
@@ -34,6 +39,11 @@
     <style name="PlainSpinnerDropdown" parent="@*android:style/Widget.Holo.Light.Spinner">
         <item name="android:background">@*android:drawable/spinner_background_holo_light</item>
         <item name="android:popupBackground">@drawable/menu_dropdown_panel_holo_light</item>
+    </style>
+
+    <style name="Widget.Holo.EditText" parent="@*android:style/Widget.Holo.Light.EditText">
+        <item name="android:textColor">#ff000000</item>
+        <item name="android:background">@drawable/edit_text_holo_light</item>
     </style>
 
 </resources>
