@@ -19,6 +19,7 @@
         <item name="android:editTextStyle">@style/Widget.Holo.EditText</item>
 	</style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MailActionBarStyle</item>
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.Light.ListView</item>
         <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
