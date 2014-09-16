@@ -23,7 +23,5 @@
     <color name="notification_panel_scrim_color">#B0000000</color>
     <color name="notification_panel_solid_background">#ff000000</color>
     <color name="status_bar_clock_color">#FFFFFFFF</color>
-    <color name="system_bar_background_opaque">#ff000000</color>
-    <color name="system_bar_background_semi_transparent">#50000000</color>
     <color name="title_color">#ff80d2d0</color>
 </resources>
