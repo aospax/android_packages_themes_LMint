@@ -25,9 +25,11 @@
     <color name="banner_item_selected">#cc71b5b3</color>
     <color name="banner_item_pressed">#6733b679</color>
 
-    <color name="background">#ffffffff</color>
+    <color name="background">#fff5f5f5</color>
     <color name="background_light">#fff5f5f5</color>
 
     <color name="message_count_color">#ff33b679</color>
+    <color name="read_bgcolor">#fff5f5f5</color>
+    <color name="unread_bgcolor">#ffffffff</color>
 
 </resources>
