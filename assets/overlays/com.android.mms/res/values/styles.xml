@@ -3,7 +3,10 @@
 
     <style name="MmsHoloTheme" parent="@android:style/Theme.Holo.Light">
         <item name="android:actionBarStyle">@style/MmsActionBarStyle</item>
-        <item name="android:windowBackground">@color/background_light</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="android:windowBackground">@drawable/window_bg</item>
     </style>
     <style name="MmsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
 		<item name="android:background">@drawable/mms_ab_solid</item>
