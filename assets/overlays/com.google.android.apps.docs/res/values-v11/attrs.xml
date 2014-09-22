@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="adSize" format="string" />
+    <attr name="adSizes" format="string" />
+    <attr name="adUnitId" format="string" />
+    <attr name="corpusId" format="string" />
+    <attr name="corpusVersion" format="string" />
+    <attr name="contentProviderUri" format="string" />
+    <attr name="trimmable" format="boolean" />
+    <attr name="sectionId" format="string" />
+    <attr name="sectionFormat">
+        <enum name="plain" value="0" />
+        <enum name="html" value="1" />
+        <enum name="rfc822" value="2" />
+    </attr>
+    <attr name="noIndex" format="boolean" />
+    <attr name="sectionWeight" format="integer" />
+    <attr name="indexPrefixes" format="boolean" />
+    <attr name="subsectionSeparator" format="string" />
+    <attr name="featureType">
+        <enum name="match_global_nicknames" value="1" />
+        <enum name="demote_common_words" value="2" />
+        <enum name="demote_rfc822_hostnames" value="3" />
+    </attr>
+    <attr name="paramName" format="string" />
+    <attr name="paramValue" format="string" />
+    <attr name="searchEnabled" format="boolean" />
+    <attr name="searchLabel" format="string" localization="suggested" />
+    <attr name="settingsDescription" format="string" localization="suggested" />
+    <attr name="defaultIntentAction" format="string" />
+    <attr name="defaultIntentData" format="string" />
+    <attr name="defaultIntentActivity" format="string" />
+    <attr name="allowShortcuts" format="boolean" />
+    <attr name="sectionType">
+        <enum name="text1" value="0" />
+        <enum name="text2" value="1" />
+        <enum name="icon_uri" value="2" />
+        <enum name="intent_action" value="3" />
+        <enum name="intent_data" value="4" />
+        <enum name="intent_data_id" value="5" />
+        <enum name="intent_extra_data" value="6" />
+        <enum name="large_icon_uri" value="7" />
+        <enum name="intent_activity" value="8" />
+    </attr>
+    <attr name="sectionContent" format="string" localization="suggested" />
+    <attr name="mapType">
+        <enum name="none" value="0" />
+        <enum name="normal" value="1" />
+        <enum name="satellite" value="2" />
+        <enum name="terrain" value="3" />
+        <enum name="hybrid" value="4" />
+    </attr>
+    <attr name="cameraBearing" format="float" />
+    <attr name="cameraTargetLat" format="float" />
+    <attr name="cameraTargetLng" format="float" />
+    <attr name="cameraTilt" format="float" />
+    <attr name="cameraZoom" format="float" />
+    <attr name="uiCompass" format="boolean" />
+    <attr name="uiRotateGestures" format="boolean" />
+    <attr name="uiScrollGestures" format="boolean" />
+    <attr name="uiTiltGestures" format="boolean" />
+    <attr name="uiZoomControls" format="boolean" />
+    <attr name="uiZoomGestures" format="boolean" />
+    <attr name="useViewLifecycle" format="boolean" />
+    <attr name="zOrderOnTop" format="boolean" />
+    <attr name="ds_actionbar_compat_title_style" format="reference" />
+    <attr name="ds_actionbar_compat_item_style" format="reference" />
+    <attr name="ds_actionbar_compat_item_home_style" format="reference" />
+    <attr name="maskDrawable" format="reference" />
+    <attr name="borderDrawable" format="reference" />
+    <attr name="controls_enabled" format="boolean" />
+    <attr name="scrubberBackgroundDrawable" format="reference" />
+    <attr name="scrubberDrawable" format="reference" />
+    <attr name="scrubberCalloutDrawable" format="reference" />
+    <attr name="scrubberTrackDrawable" format="reference" />
+    <attr name="scrubberUndoDrawable" format="reference" />
+    <attr name="entryLayout" format="reference" />
+    <attr name="icMenuAddCollaborator" format="reference" />
+    <attr name="icMenuMove" format="reference" />
+    <attr name="icMenuOffline" format="reference" />
+    <attr name="aspectRatio" format="float" />
+    <attr name="thumbnailVisible" format="boolean" />
+</resources>

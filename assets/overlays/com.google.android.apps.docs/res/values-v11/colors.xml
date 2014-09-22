@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_text_color">#ff333333</color>
+    <item type="color" name="ds_list_entry_focused">@color/ds_list_entry_pressed</item>
+    <color name="ds_list_entry_pressed">#7fc8c8c8</color>
+    <color name="ds_list_entry_selected">#ffc1e9f7</color>
+    <color name="operation_dialog_error">#ffcc0000</color>
+    <item type="color" name="create_entry_dialog_list_background">@*android:color/transparent</item>
+    <item type="color" name="progress_title_foreground">@*android:color/white</item>
+    <item type="color" name="list_entry_focused">@color/list_entry_pressed</item>
+    <color name="list_entry_pressed">#33999999</color>
+    <color name="list_entry_selected">#4c4f4f4f</color>
+    <item type="color" name="migration_font_color">@*android:color/black</item>
+    <item type="color" name="pick_entry_dialog_header_divider">@*android:color/transparent</item>
+    <color name="ds_default_list_divider">#ffd0d0d0</color>
+    <color name="ds_default_list_vertical_divider">#ffe8e8e8</color>
+    <color name="operation_dialog_syncing">#ff00cc00</color>
+    <color name="list_entry_activated">#22000000</color>
+    <color name="list_entry_disabled_focused">#ffe0e0e0</color>
+    <color name="cakemix_color">#ff44a8de</color>
+</resources>
