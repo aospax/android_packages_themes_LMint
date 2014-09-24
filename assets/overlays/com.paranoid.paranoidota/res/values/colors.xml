@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <color name="actionbar_background">#fffe4445</color>
+    <color name="item_action">#fffe4445</color>
+    <drawable name="drawer_shadow">@android:color/transparent</drawable>
+</resources>
