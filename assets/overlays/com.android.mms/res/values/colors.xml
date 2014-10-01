@@ -32,4 +32,6 @@
     <color name="read_bgcolor">#fff5f5f5</color>
     <color name="unread_bgcolor">#ffffffff</color>
 
+    <color name="app_color">#ff33b679</color>
+
 </resources>

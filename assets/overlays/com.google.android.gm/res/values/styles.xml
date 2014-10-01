@@ -11,6 +11,7 @@
     <style name="PlainUnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
         <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
+        <item name="android:listSeparatorTextViewStyle">@style/GMailListSeperator</item>
     </style>
     <style name="ComposeTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
@@ -21,6 +22,7 @@
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
         <item name="android:listViewWhiteStyle">@*android:style/Widget.Holo.Light.ListView</item>
+        <item name="android:listSeparatorTextViewStyle">@style/GMailListSeperator</item>
         <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
         <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
@@ -35,6 +37,9 @@
         <item name="android:textColor">#ddffffff</item>
         <item name="android:textSize">14sp</item>
         <item name="android:layout_marginTop">-3.0sp</item>
+    </style>
+    <style name="GMailListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+		<item name="android:textColor">@color/mail_app_blue</item>
     </style>
 
     <style name="PlainSpinnerDropdown" parent="@*android:style/Widget.Holo.Light.Spinner">

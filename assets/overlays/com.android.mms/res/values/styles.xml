@@ -7,6 +7,7 @@
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:clipToPadding">false</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:listSeparatorTextViewStyle">@style/MmsListSeperator</item>
     </style>
     <style name="MmsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
 		<item name="android:background">@drawable/mms_ab_solid</item>
@@ -17,6 +18,9 @@
     <style name="MmsActionBarText" parent="@*android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">@color/action_bar_text</item>
         <item name="android:textStyle">bold</item>
+    </style>
+    <style name="MmsListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+		<item name="android:textColor">@color/app_color</item>
     </style>
 
 </resources>

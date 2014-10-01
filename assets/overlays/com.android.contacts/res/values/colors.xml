@@ -12,6 +12,9 @@
 	<!-- Primary background for Contacts List Layout -->
 	<color name="background_primary">#ffffffff</color>
 
+    <color name="people_app_theme_color">#ff71b5b3</color>
+    <color name="people_app_alt_color">#ff71b5b3</color>
+
     <color name="theme_text_primary_light">#de000000</color>
     <color name="theme_text_primary_dark">#ff4d4d4d</color>
 </resources>

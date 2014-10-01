@@ -27,6 +27,6 @@
     <color name="incall_call_glowpad_background">#00000000</color>
 
     <color name="phone_settings_actionbar_color">#ff71b5b3</color>
-
     <color name="phone_settings_background_color">#fff5f5f5</color>
+    <color name="phone_app_blue">#71b5b3</color>
 </resources>

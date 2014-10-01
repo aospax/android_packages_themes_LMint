@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <style name="SettingsLight" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:windowBackground">@color/phone_settings_background_color</item>
+        <item name="android:actionBarStyle">@style/DialtactsActionBarStyle</item>
+        <item name="android:actionOverflowButtonStyle">@style/DialtactsActionBarOverflow</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_back_arrow</item>
+        <item name="android:listSeparatorTextViewStyle">@style/PhoneListSeperator</item>
+    </style>
     <style name="EmergencyDialerTheme" parent="@*android:style/Theme.Holo">
         <item name="android:actionBarStyle">@android:style/Widget.Holo.ActionBar.Solid</item>
         <item name="android:windowBackground">@*android:drawable/background_holo_dark</item>
+    </style>
+    <style name="PhoneListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+		<item name="android:textColor">@color/phone_app_blue</item>
+    </style>
+
+    <style name="DialtactsActionBarOverflow" parent="@*android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_overflow_lt</item>
+    </style>
+    <style name="DialtactsActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:icon">@*android:color/transparent</item>
+        <item name="android:displayOptions">none</item>
+        <item name="android:background">@color/actionbar_background_color</item>
+        <item name="android:backgroundStacked">@color/actionbar_background_color</item>
+        <item name="android:backgroundSplit">@color/actionbar_background_color</item>
+        <item name="android:titleTextStyle">@style/PhoneActionBar.Title</item>
+        <item name="android:subtitleTextStyle">@style/PhoneActionBar.Subtitle</item>
+    </style>
+    <style name="PhoneActionBar.Title" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:background">#00000000</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffffff</item>
+    </style>
+    <style name="PhoneActionBar.Subtitle" parent="@*android:style/TextAppearance.Medium">
+        <item name="android:textColor">#ddffffff</item>
+        <item name="android:textSize">16sp</item>
     </style>
 </resources>
