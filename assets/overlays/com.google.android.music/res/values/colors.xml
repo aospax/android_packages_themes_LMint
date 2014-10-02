@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="wallet_highlighted_text_holo_light">#66ef6c00</color>
+    <color name="wallet_highlighted_text_holo_dark">#66ef6c00</color>
+    <color name="wallet_holo_blue_light">#ffef6c00</color>
+	
+<!-- Apps -->
+    <color name="apps_primary">#ff689f38</color>
+    <color name="apps_primary_disabled">#80689f38</color>
+    <color name="apps_secondary">#ff56842e</color>
+<!-- Books -->
+    <color name="books_primary">#ff039be5</color>
+    <color name="books_primary_disabled">#80039be5</color>
+    <color name="books_secondary">#ff0281cd</color>
+<!-- Movies -->
+    <color name="movies_primary">#ffff5252</color>
+    <color name="movies_primary_disabled">#80ff5252</color>
+    <color name="movies_secondary">#ffff4444</color>
+<!-- Music -->	
+    <color name="music_primary">#ffef6c00</color>
+    <color name="music_primary_disabled">#80ef6c00</color>
+    <color name="music_secondary">#ffdc5900</color>
+<!-- NewsStand -->
+    <color name="newsstand_primary">#ff536dfe</color>
+    <color name="newsstand_primary_disabled">#80536dfe</color>
+    <color name="newsstand_secondary">#ff455afc</color>
+
+    <color name="play_avatar_pressed_outline">#ffef6c00</color>
+    <color name="play_avatar_focused_outline">#80ef6c00</color>
+    <color name="action_bar_selected_bg">#99ef6c00</color>
+    <color name="app_color">#ffef6c00</color>
+    <color name="app_color_accented">#ffef6c00</color>
+    <color name="app_color_transparent">#20ef6c00</color>
+    <color name="tutorial_action_item">#fff68419</color>
+    <color name="signup_header_text">#fff4842d</color>
+    <color name="empty_screen_learn_more_color">#fff88400</color>
+    <color name="xdi_background">#fff4842d</color>
+    <color name="sound_search_card_bg">#ffffead9</color>
+    <color name="notification_large_icon_bg_color">#ff213741</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+</resources>

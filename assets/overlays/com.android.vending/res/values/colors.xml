@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="play_main_background">#ffe5e5e5</color>
+	
+    <color name="play_fg_tertiary">#ffb5b5b5</color>
+    <color name="play_disabled_grey">#ffd0d0d0</color>
+
+    <color name="play_fg_secondary">#ff707070</color>
+
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+	
+<!-- Apps -->
+    <color name="play_apps_primary">#ff689f38</color>
+    <color name="play_apps_primary_disabled">#80689f38</color>
+    <color name="play_apps_secondary">#ff56842e</color>
+<!-- Books -->
+    <color name="play_books_primary">#ff039be5</color>
+    <color name="play_books_primary_disabled">#80039be5</color>
+    <color name="play_books_secondary">#ff0281cd</color>
+<!-- Movies -->
+    <color name="play_movies_primary">#ffff5252</color>
+    <color name="play_movies_primary_disabled">#80ff5252</color>
+    <color name="play_movies_secondary">#ffff4444</color>
+<!-- Music -->	
+    <color name="play_music_primary">#ffef6c00</color>
+    <color name="play_music_primary_disabled">#80ef6c00</color>
+    <color name="play_music_secondary">#ffdc5900</color>
+<!-- NewsStand -->
+    <color name="play_newsstand_primary">#ff536dfe</color>
+    <color name="play_newsstand_primary_disabled">#80536dfe</color>
+    <color name="play_newsstand_secondary">#ff455afc</color>
+	
+    <color name="play_avatar_pressed_outline">#ff689f38</color>
+    <color name="play_avatar_focused_outline">#80689f38</color>
+    <color name="details_review_source_text">#ff039be5</color>
+    <color name="corpus_selector_active">#ff039be5</color>
+    <color name="setup_wizard_title_color">#ff689f38</color>
+    <color name="song_highlighted_background">#ffef6c00</color>
+	
+    <color name="tipper_sticker_explicit">#ffd77428</color>
+    <color name="consumption_item_added">#fff3842c</color>
+    <color name="credit_card_invalid_text_color">#ffff0000</color>
+    <color name="discovery_plus_one_background">#ffd73d32</color>
+    <color name="rotten_tomatoes_accent">#ffff5252</color>
+	
+    <color name="play_primary_text_pressed">#ff689f38</color>
+    <color name="play_secondary_text_pressed">#c0689f38</color>
+    <color name="package_malware_title_color">#ff689f38</color>
+</resources>

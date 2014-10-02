@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="common_signin_btn_default_background">#ffdd4b39</color>
+    <color name="common_action_bar_splitter">#ffd2d2d2</color>
+    <color name="abc_search_url_text_normal">#ff7fa87f</color>
+
+<!-- Apps -->
+    <color name="apps_primary">#ff689f38</color>
+    <color name="apps_primary_disabled">#80689f38</color>
+    <color name="apps_secondary">#ff56842e</color>
+<!-- Books -->
+    <color name="books_primary">#ff039be5</color>
+    <color name="books_primary_disabled">#80039be5</color>
+    <color name="books_secondary">#ff0281cd</color>
+<!-- Movies -->
+    <color name="movies_primary">#ffff5252</color>
+    <color name="movies_primary_disabled">#80ff5252</color>
+    <color name="movies_secondary">#ffff4444</color>
+<!-- Music -->	
+    <color name="music_primary">#ffef6c00</color>
+    <color name="music_primary_disabled">#80ef6c00</color>
+    <color name="music_secondary">#ffdc5900</color>
+<!-- NewsStand -->
+    <color name="newsstand_primary">#ff536dfe</color>
+    <color name="newsstand_primary_disabled">#80536dfe</color>
+    <color name="newsstand_secondary">#ff455afc</color>
+
+    <color name="videos_red">#ffff5252</color>
+    <color name="link_blue">#ffff5252</color>
+
+    <color name="download_view_pending_arc">#ffff8700</color>
+    <color name="download_view_pending_background">#fffea243</color>
+    <color name="download_view_error_background">#ccff5252</color>
+    <color name="activated_tag_color">#ffff605a</color>
+    <color name="knowledge_card_image_background_color">#ffe7e6e6</color>
+    <color name="feedback_button_text_color_normal">#ffff605a</color>
+    <color name="play_background_grey">#ffd9d9d9</color>
+    <color name="actionbar_pressed_item_background">#66ffffff</color>
+    <color name="actionbar_focused_item_background">#33ffffff</color>
+    <color name="seventy_percent_white">#b0ffffff</color>
+
+</resources>

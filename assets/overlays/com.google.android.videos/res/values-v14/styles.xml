@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Base.AppCompat" parent="@*android:style/Theme.Holo">
+        <item name="android:actionBarWidgetTheme">?actionBarWidgetTheme</item>
+        <item name="windowActionBar">?android:windowActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="listPreferredItemHeight">?android:listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listPreferredItemHeightLarge">?android:listPreferredItemHeightLarge</item>
+        <item name="listPreferredItemPaddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="listPreferredItemPaddingRight">?android:listPreferredItemPaddingRight</item>	
+        <item name="android:listSeparatorTextViewStyle">@style/PlayMoviesListSeperator</item>
+    </style>
+	
+    <style name="PlayMoviesListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+		<item name="android:textColor">@color/videos_red</item>
+    </style>
+
+    <style name="Theme.Base.AppCompat.Light" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarWidgetTheme">?actionBarWidgetTheme</item>
+        <item name="windowActionBar">?android:windowActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="listPreferredItemHeight">?android:listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listPreferredItemHeightLarge">?android:listPreferredItemHeightLarge</item>
+        <item name="listPreferredItemPaddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="listPreferredItemPaddingRight">?android:listPreferredItemPaddingRight</item>
+        <item name="android:listSeparatorTextViewStyle">@style/PlayMoviesListSeperator</item>
+    </style>
+	
+    <style name="Theme.Base.AppCompat.Light.DarkActionBar" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarWidgetTheme">?actionBarWidgetTheme</item>
+        <item name="windowActionBar">?android:windowActionBar</item>
+        <item name="actionBarWidgetTheme">@style/Theme.Base.AppCompat</item> <!-- Theme.AppCompact -->
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="listPreferredItemHeight">?android:listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listPreferredItemHeightLarge">?android:listPreferredItemHeightLarge</item>
+        <item name="listPreferredItemPaddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="listPreferredItemPaddingRight">?android:listPreferredItemPaddingRight</item>	
+        <item name="android:listSeparatorTextViewStyle">@style/PlayMoviesListSeperator</item>
+    </style>
+
+    <style name="Theme" parent="@style/Theme.Base.AppCompat.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/play_background_grey</item>
+        <item name="android:dropDownListViewStyle">@style/ActionBarDropDownStyle</item>
+        <item name="android:actionBarStyle">@style/ActionBar</item>
+        <item name="android:actionBarWidgetTheme">@style/ActionBar_Widget</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_item_selector</item>
+        <item name="clusterLayoutStyle">@style/ClusterLayout</item>
+		<item name="android:windowContentOverlay">@drawable/shadow</item>
+    </style>
+    <style name="ActionBar_Widget" parent="@*android:style/Theme.Holo">
+        <item name="android:dropDownListViewStyle">@style/ActionBarDropDownStyle</item>
+        <item name="android:textColorHint">@color/seventy_percent_white</item>
+        <item name="android:listDivider">@drawable/list_divider_holo_light</item>
+        <item name="android:popupMenuStyle">@*android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/PopupLargeTextStyle</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/PopupSmallTextStyle</item>
+        <item name="android:actionBarItemBackground">@drawable/actionbar_item_selector</item>
+    </style>
+    <style name="SettingsTheme" parent="@style/Theme">
+        <item name="android:gridViewStyle">@style/SettingsGridView</item>
+        <item name="android:listViewStyle">@style/SettingsListView</item>
+		<item name="android:windowContentOverlay">@drawable/shadow</item>
+    </style>
+    <style name="ActionBar_Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+    <style name="PopupLargeTextStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Large">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+    <style name="PopupSmallTextStyle" parent="@*android:style/TextAppearance.Holo.Widget.PopupMenu.Small">
+        <item name="android:textColor">?android:textColorPrimaryInverse</item>
+    </style>
+
+</resources>

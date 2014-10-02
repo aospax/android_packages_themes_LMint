@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="ClusterLayout">
+        <item name="android:paddingLeft">4.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+    </style>
+    <style name="SettingsListView" parent="@*android:style/Widget.ListView">
+        <item name="android:listSelector">@drawable/default_item_selector</item>
+        <item name="android:cacheColorHint">@null</item>
+    </style>
+    <style name="SettingsGridView" parent="@*android:style/Widget.GridView">
+        <item name="android:listSelector">@drawable/default_item_selector</item>
+        <item name="android:cacheColorHint">@null</item>
+    </style>
+    <style name="ActionBar_Subtitle" parent="@style/ActionBar_Title">
+        <item name="android:textSize">@dimen/small_font_size</item>
+    </style>
+
+</resources>

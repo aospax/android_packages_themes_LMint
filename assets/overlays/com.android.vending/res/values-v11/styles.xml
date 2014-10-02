@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="FinskyActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar">
+        <item name="android:background">@drawable/action_bar_bg_home</item>
+        <item name="android:titleTextStyle">@style/FinskyActionBarTitleTextStyle</item>
+    </style>
+    <style name="FinskyActionBarTabStyle" parent="@*android:style/Widget.Holo.ActionBar.TabView">
+        <item name="android:background">@drawable/action_bar_tab</item>
+    </style>
+    <style name="FinskyActionBarTitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#deffffff</item>
+    </style>
+</resources>

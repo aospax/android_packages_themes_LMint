@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Base.AppCompat.Light" parent="@*android:style/Theme.Holo.Light">
+        <item name="android:actionBarWidgetTheme">?actionBarWidgetTheme</item>
+        <item name="windowActionBar">?android:windowActionBar</item>
+        <item name="actionBarWidgetTheme">@null</item>
+        <item name="actionBarSize">?android:actionBarSize</item>
+        <item name="actionBarItemBackground">?android:actionBarItemBackground</item>
+        <item name="actionButtonStyle">?android:actionButtonStyle</item>
+        <item name="buttonBarStyle">?android:buttonBarStyle</item>
+        <item name="buttonBarButtonStyle">?android:buttonBarButtonStyle</item>
+        <item name="selectableItemBackground">?android:selectableItemBackground</item>
+        <item name="dividerVertical">?android:dividerVertical</item>
+        <item name="dividerHorizontal">?android:dividerHorizontal</item>
+        <item name="listPreferredItemHeight">?android:listPreferredItemHeight</item>
+        <item name="listPreferredItemHeightSmall">?android:listPreferredItemHeightSmall</item>
+        <item name="listPreferredItemHeightLarge">?android:listPreferredItemHeightLarge</item>
+        <item name="listPreferredItemPaddingLeft">?android:listPreferredItemPaddingLeft</item>
+        <item name="listPreferredItemPaddingRight">?android:listPreferredItemPaddingRight</item>
+        <item name="android:listSeparatorTextViewStyle">@style/PlayMusicListSeperator</item>
+    </style>
+
+    <style name="PlayMusicListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+		<item name="android:textColor">@color/app_color</item>
+    </style>
+
+</resources>

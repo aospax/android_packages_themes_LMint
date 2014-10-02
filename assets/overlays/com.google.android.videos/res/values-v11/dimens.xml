@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="dimen" name="remote_notification_logo_max_width">@*android:dimen/notification_large_icon_width</item>
+    <dimen name="remote_notification_logo_max_height">100.0dip</dimen>
+</resources>
