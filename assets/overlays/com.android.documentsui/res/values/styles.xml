@@ -3,6 +3,7 @@
     <style name="Theme" parent="@*android:style/Theme.Holo.Light">
         <item name="android:actionOverflowButtonStyle">@style/DarkerOverflow</item>
 		<item name="android:actionBarStyle">@style/DocUIActionBarStyle</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="DocUIActionBarStyle" parent="@*android:style/Widget.Holo.ActionBar.Solid">
         <item name="android:background">@drawable/docui_ab_solid</item>
@@ -25,6 +26,7 @@
     <style name="SettingsTheme" parent="@*android:style/Theme.Holo.Light.DialogWhenLarge">
         <item name="android:actionBarStyle">@style/SettingsActionBarStyle</item>
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="SettingsActionBarStyle" parent="@*android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="android:background">@drawable/docui_ab_solid</item>

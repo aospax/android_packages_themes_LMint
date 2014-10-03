@@ -19,6 +19,7 @@
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:clipToPadding">false</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="CalendarActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
 	    <item name="android:background">@drawable/cal_ab_solid</item>

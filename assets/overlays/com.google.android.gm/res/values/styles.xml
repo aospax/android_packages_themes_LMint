@@ -12,12 +12,14 @@
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
         <item name="android:actionDropDownStyle">@*android:style/Widget.Holo.Light.Spinner</item>
         <item name="android:listSeparatorTextViewStyle">@style/GMailListSeperator</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="ComposeTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
         <item name="android:actionDropDownStyle">@style/PlainSpinnerDropdown</item>
         <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
         <item name="android:editTextStyle">@style/Widget.Holo.EditText</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="UnifiedEmailTheme" parent="@*android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:actionBarStyle">@style/GMailActionBarStyle</item>
@@ -27,6 +29,7 @@
         <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
         <item name="android:editTextBackground">@drawable/edit_text_holo_light</item>
         <item name="android:editTextStyle">@style/Widget.Holo.EditText</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="GMailActionBar.Title" parent="@*android:style/TextAppearance.Medium">
         <item name="android:background">#00000000</item>

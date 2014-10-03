@@ -17,4 +17,7 @@
 
     <color name="theme_text_primary_light">#de000000</color>
     <color name="theme_text_primary_dark">#ff4d4d4d</color>
+
+    <color name="primary_text_color">#ff363636</color>
+    <color name="secondary_text_color">#ff888888</color>
 </resources>

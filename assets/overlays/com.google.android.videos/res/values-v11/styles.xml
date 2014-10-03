@@ -7,7 +7,6 @@
         <item name="android:displayOptions">useLogo|showHome</item>
         <item name="android:titleTextStyle">@style/ActionBar_Title</item>
         <item name="android:subtitleTextStyle">@style/ActionBar_Subtitle</item>
-		<item name="android:windowContentOverlay">@drawable/shadow</item>
     </style>
     <style name="ActionBarDropDownStyle" parent="@*android:style/Widget.Holo.Light.ListView.DropDown">
         <item name="android:listSelector">@drawable/default_item_selector</item>

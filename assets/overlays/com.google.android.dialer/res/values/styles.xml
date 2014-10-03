@@ -25,7 +25,7 @@
         <item name="android:listViewStyle">@style/ListViewStyle</item>
         <item name="android:gravity">top</item>
         <item name="android:actionBarStyle">@style/DialtactsLogActionBarStyle</item>
-        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
 	<style name="DialtactsActionBarTabBarStyle" parent="@*android:style/Widget.Holo.ActionBar.TabBar">
         <item name="android:background">@drawable/action_bar_tab</item>

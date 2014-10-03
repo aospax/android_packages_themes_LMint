@@ -11,7 +11,7 @@
         <item name="finskyButtonBarButtonStyle">?android:buttonBarButtonStyle</item>
         <item name="actionBarSize">?android:actionBarSize</item>
         <item name="android:listSeparatorTextViewStyle">@style/PlayListSeperator</item>	
-		<item name="android:windowContentOverlay">@drawable/shadow</item>
+		<item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="PlayListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
 		<item name="android:textColor">#ff455a64</item>
@@ -21,7 +21,7 @@
         <item name="android:actionBarStyle">@style/FinskyActionBarStyle</item>
         <item name="finskyButtonBarStyle">?android:buttonBarStyle</item>
         <item name="finskyButtonBarButtonStyle">?android:buttonBarButtonStyle</item>
-		<item name="android:windowContentOverlay">@drawable/shadow</item>
+		<item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="SettingsTheme" parent="@style/FinskyTheme">
     </style>

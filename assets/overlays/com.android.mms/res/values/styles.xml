@@ -8,6 +8,7 @@
         <item name="android:clipToPadding">false</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
         <item name="android:listSeparatorTextViewStyle">@style/MmsListSeperator</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="MmsActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar">
 		<item name="android:background">@drawable/mms_ab_solid</item>

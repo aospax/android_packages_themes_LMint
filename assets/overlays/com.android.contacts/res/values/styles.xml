@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <style name="ListViewStyle" parent="@*android:style/Widget.Holo.Light.ListView">
+        <item name="android:overScrollMode">always</item>
+    </style>
+
+    <style name="DetailActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:listSeparatorTextViewStyle">@style/ContactsListSeperator</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
+    </style>
     <style name="PeopleTheme1" parent="@*android:style/Theme.Holo.Light">
         <item name="android:windowBackground">@color/background_primary</item>
         <item name="android:textColorPrimary">@color/theme_text_primary_light</item>
@@ -8,8 +22,26 @@
         <item name="android:actionBarTabStyle">@style/ContactsActionBarTabView</item>
 		<item name="android:actionBarWidgetTheme">@style/ActionBarWidget</item>
     </style>
+    <style name="EditorActivityTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/ContactsActionBarStyle</item>
+        <item name="android:actionBarItemBackground">@drawable/action_bar_item_background</item>
+        <item name="android:actionBarWidgetTheme">@style/ContactsActionBarTheme</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
+        <item name="android:textColorPrimary">@color/primary_text_color</item>
+        <item name="android:textColorSecondary">@color/secondary_text_color</item>
+        <item name="android:listViewStyle">@style/ListViewStyle</item>
+        <item name="android:listSeparatorTextViewStyle">@style/ContactsListSeperator</item>
+    </style>
     <style name="ContactsPreferencesTheme" parent="@*android:style/Theme.Holo.Light">
         <item name="android:actionBarStyle">@style/ContactsActionBarPreferenceStyle</item>
+        <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
+    </style>
+    <style name="ContactsActionBarTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:popupMenuStyle">@android:style/Widget.Holo.Light.PopupMenu</item>
+        <item name="android:dropDownListViewStyle">@style/ListViewDropdownStyle</item>
+        <item name="android:titleTextStyle">@style/TextAppearance.Contacts.ActionBar.Title</item>
+        <item name="android:textColorHint">#ffcccccc</item>
+        <item name="android:listSeparatorTextViewStyle">@style/ContactsListSeperator</item>
     </style>
     <style name="ContactsActionBarStyle" parent="@android:Widget.Holo.ActionBar">
         <item name="android:background">@drawable/ab_solid_custom_blue_inverse_holo</item>
@@ -25,6 +57,13 @@
     </style>
     <style name="ContactsActionBarTabView" parent="@*android:style/Widget.Holo.ActionBar.TabView">
         <item name="android:background">@color/action_bar_background</item>
+    </style>
+    <style name="ContactsListSeperator" parent="@*android:style/Widget.Holo.Light.TextView.ListSeparator">
+		<item name="android:textColor">@color/people_app_theme_color</item>
+    </style>
+
+	<style name="ListViewDropdownStyle" parent="@android:style/Widget.ListView.DropDown">
+        <item name="android:listSelector">?android:attr/listChoiceBackgroundIndicator</item>
     </style>
     <style name="ActionBarWidget" parent="@*android:style/Theme.Holo.Light">
    	    <item name="android:textColorPrimary">#de000000</item>

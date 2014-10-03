@@ -71,7 +71,7 @@
         <item name="android:actionBarWidgetTheme">@style/ActionBar_Widget</item>
         <item name="android:actionBarItemBackground">@drawable/actionbar_item_selector</item>
         <item name="clusterLayoutStyle">@style/ClusterLayout</item>
-		<item name="android:windowContentOverlay">@drawable/shadow</item>
+		<item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="ActionBar_Widget" parent="@*android:style/Theme.Holo">
         <item name="android:dropDownListViewStyle">@style/ActionBarDropDownStyle</item>
@@ -85,7 +85,7 @@
     <style name="SettingsTheme" parent="@style/Theme">
         <item name="android:gridViewStyle">@style/SettingsGridView</item>
         <item name="android:listViewStyle">@style/SettingsListView</item>
-		<item name="android:windowContentOverlay">@drawable/shadow</item>
+		<item name="android:windowContentOverlay">@*common:drawable/shadow</item>
     </style>
     <style name="ActionBar_Title" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
         <item name="android:textColor">#deffffff</item>
