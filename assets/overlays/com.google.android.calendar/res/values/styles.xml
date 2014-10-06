@@ -8,6 +8,8 @@
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:clipToPadding">false</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
     </style>
     <style name="CalendarTheme.WithActionBar" parent="@android:style/Theme.Holo.Light.DarkActionBar">
         <item name="android:windowNoTitle">false</item>
@@ -20,6 +22,8 @@
         <item name="android:clipToPadding">false</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
         <item name="android:windowContentOverlay">@*common:drawable/shadow</item>
+        <item name="android:actionOverflowButtonStyle">@style/OverflowButtonStyle</item>
+        <item name="android:homeAsUpIndicator">@drawable/ic_up_holo_light</item>
     </style>
     <style name="CalendarActionBarStyle" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
 	    <item name="android:background">@drawable/cal_ab_solid</item>
@@ -40,6 +44,9 @@
         <item name="android:fitsSystemWindows">true</item>
         <item name="android:clipToPadding">false</item>
         <item name="android:windowBackground">@drawable/window_bg</item>
+    </style>
+    <style name="OverflowButtonStyle" parent="@*android:style/Widget.Holo.Light.ActionButton.Overflow">
+        <item name="android:src">@drawable/ic_menu_moreoverflow_normal_holo_light</item>
     </style>
 
 </resources>
