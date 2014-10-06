@@ -152,6 +152,18 @@
         <item name="android:switchPadding">0dip</item>
     </style>
 
+    <style name="Preference.SwitchPreference" parent="@*android:style/Preference">
+        <item name="android:widgetLayout">@*android:layout/preference_widget_switch</item>
+        <item name="android:switchTextOn"></item>
+        <item name="android:switchTextOff"></item>
+    </style>
+
+    <style name="Preference.Holo.SwitchPreference" parent="@*android:style/Preference.Holo">
+        <item name="android:widgetLayout">@*android:layout/preference_widget_switch</item>
+        <item name="android:switchTextOn"></item>
+        <item name="android:switchTextOff"></item>
+    </style>
+
     <!--End Of Switch-->
 
     <style name="Theme.Black" parent="@android:style/Theme">
