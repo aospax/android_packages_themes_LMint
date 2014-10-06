@@ -4,57 +4,57 @@
     <color name="holo_blue_light">#ff536dfe</color>
     <color name="holo_blue_dark">#ff4257cb</color>
     <color name="card_blue_text">#ff536dfe</color>
-	
+
     <color name="card_meter_green">#ff28ab60</color>
     <color name="card_meter_dark_green">#ff1d7b45</color>
-		
+
     <color name="card_warm_welcome_logo_background">#ff3885d7</color>
 
     <color name="card_background_brown">#ff795548</color>
     <color name="card_background_brown_dark">#ff553b32</color>
-	
+
     <color name="card_background_green">#ff0f9d58</color>
     <color name="card_background_green_dark">#ff0a6e3e</color>
-	
+
     <color name="card_background_aqua">#ff39b3a7</color>
     <color name="action_bar_background_aqua">#ff009678</color>
     <color name="card_background_aqua_dark">#ff287d75</color>
-	
+
     <color name="card_background_blue1">#ff15a0c8</color>
     <color name="action_bar_background_blue1">#ff008aa7</color>
     <color name="card_background_blue1_dark">#ff0f708c</color>
-	
+
     <color name="card_background_blue2">#ff4285f4</color>
     <color name="card_background_blue2_dark">#ff2e5dab</color>
-	
+
     <color name="card_background_navy">#ff3f5ca9</color>
     <color name="card_background_navy_dark">#ff2c4076</color>
-	
+
     <color name="card_background_purple">#ff7e3794</color>
     <color name="card_background_purple_dark">#ff582668</color>
-	
+
     <color name="card_background_maroon">#ffa61d4c</color>
     <color name="card_background_maroon_dark">#ff741435</color>
-	
+
     <color name="card_background_red">#ffdb4437</color>
     <color name="card_background_red_dark">#ff993026</color>
-	
+
     <color name="card_background_orange">#ffef851c</color>
     <color name="action_bar_background_orange">#ffef6c00</color>
     <color name="card_background_orange_dark">#ffa75d14</color>
-	
+
     <color name="card_background_yellow">#fff4b400</color>
     <color name="action_bar_background_yellow">#ffe09721</color>
     <color name="card_background_yellow_dark">#ffab7e00</color>
-	
+
     <color name="card_background_unsubscribed">#ffe9e9e9</color>
     <color name="card_background_unsubscribed_text">#ff7f7f7f</color>
-	
+
     <color name="store_color">#ff536dfe</color>
     <color name="store_color_light">#ff758afe</color>
     <color name="store_color_light_transparent">#bb758afe</color>
     <color name="store_color_dark">#ff4257cb</color>
-	
+
     <color name="explore_topics_background_featured">#fff3b500</color>
     <color name="explore_topics_background_offers">#ff00abc0</color>
 

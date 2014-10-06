@@ -3,7 +3,7 @@
     <color name="wallet_highlighted_text_holo_light">#66ef6c00</color>
     <color name="wallet_highlighted_text_holo_dark">#66ef6c00</color>
     <color name="wallet_holo_blue_light">#ffef6c00</color>
-	
+
 <!-- Apps -->
     <color name="apps_primary">#ff689f38</color>
     <color name="apps_primary_disabled">#80689f38</color>
@@ -16,7 +16,7 @@
     <color name="movies_primary">#ffff5252</color>
     <color name="movies_primary_disabled">#80ff5252</color>
     <color name="movies_secondary">#ffff4444</color>
-<!-- Music -->	
+<!-- Music -->
     <color name="music_primary">#ffef6c00</color>
     <color name="music_primary_disabled">#80ef6c00</color>
     <color name="music_secondary">#ffdc5900</color>
