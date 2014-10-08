@@ -12,6 +12,11 @@
 	<!-- Primary background for Contacts List Layout -->
 	<color name="background_primary">#ffffffff</color>
 
+    <color name="status_bar_background_opaque">#ff71b5b3</color>
+    <color name="quickcontact_list_divider">#00000000</color>
+    <color name="call_log_divider">#00000000</color>
+    <color name="photo_backdrop">#00000000</color>
+
     <color name="people_app_theme_color">#ff71b5b3</color>
     <color name="people_app_alt_color">#ff71b5b3</color>
 
